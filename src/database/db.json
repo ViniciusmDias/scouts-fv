@@ -1,0 +1,180 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "teamName": "Brisa e Sandrey",
+      "players": [
+        {
+          "id": 1,
+          "name": "Brisa"
+        },
+        {
+          "id": 2,
+          "name": "Sandrey"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "teamName": "Kibinho e Neguebinha",
+      "players": [
+        {
+          "id": 1,
+          "name": "Kibinho"
+        },
+        {
+          "id": 2,
+          "name": "Neguebinha"
+        }
+      ]
+    }
+  ],
+  "players": [
+    {
+      "id": 1,
+      "name": "Brisa",
+      "attacks": [
+        {
+          "id": 1,
+          "attack": "Meio fundo",
+          "times": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sandrey",
+      "attacks": []
+    },
+    {
+      "id": 3,
+      "name": "Kibinho",
+      "attacks": []
+    },
+    {
+      "id": 4,
+      "name": "Neguebinha",
+      "attacks": []
+    }
+  ],
+  "match": {
+    "id": 1,
+    "teams": [
+      {
+        "id": 1,
+        "name": "Brisa e Sandrey",
+        "points": 9
+      },
+      {
+        "id": 2,
+        "name": "Kibinho e Neguebinha",
+        "points": 9
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "id": 1,
+      "number": 1,
+      "moves": [
+        {
+          "id": 1,
+          "attack": "Meio fundo",
+          "raise": ""
+        },
+        {
+          "id": 2,
+          "attack": "Paralela",
+          "type": "Cabeça"
+        },
+        {
+          "id": 3,
+          "attack": "Meio fundo",
+          "type": "Cabeça"
+        },
+        {
+          "id": 4,
+          "attack": "Meio fundo",
+          "type": "Cabeça"
+        }
+      ]
+    }
+  ],
+  "attacks": [
+    {
+      "id": 1,
+      "type": "Cabeça",
+      "attack": "Meio fundo"
+    },
+    {
+      "id": 2,
+      "type": "Cabeça",
+      "attack": "Pingo pra trás"
+    },
+    {
+      "id": 3,
+      "type": "Cabeça",
+      "attack": "Pingo de meio"
+    },
+    {
+      "id": 4,
+      "type": "Cabeça",
+      "attack": "Paralela"
+    },
+    {
+      "id": 5,
+      "type": "Cabeça",
+      "attack": "Diagonal curta"
+    },
+    {
+      "id": 6,
+      "type": "Cabeça",
+      "attack": "Diagonal longa"
+    },
+    {
+      "id": 7,
+      "type": "Cabeça",
+      "attack": "Na rede"
+    },
+    {
+      "id": 8,
+      "type": "Cabeça",
+      "attack": "Pra fora"
+    },
+    {
+      "id": 9,
+      "type": "Cabeça",
+      "attack": "De graça"
+    },
+    {
+      "id": 10,
+      "type": "Pé",
+      "attack": "Pingo"
+    },
+    {
+      "id": 11,
+      "type": "Pé",
+      "attack": "Meio"
+    },
+    {
+      "id": 12,
+      "type": "Pé",
+      "attack": "Fundo"
+    },
+    {
+      "id": 13,
+      "type": "Pé",
+      "attack": "Na rede"
+    },
+    {
+      "id": 14,
+      "type": "Pé",
+      "attack": "Pra fora"
+    },
+    {
+      "id": 15,
+      "type": "Pé",
+      "attack": "De graça"
+    }
+  ]
+}
